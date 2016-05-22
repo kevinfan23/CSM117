@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iVote_Launch_Screen" translatesAutoresizingMaskIntoConstraints="NO" id="oBF-8l-u77">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iVote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HB-lU-2eB">
+                                <rect key="frame" x="18" y="623" width="61" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="IH6-Up-YGL"/>
+                                    <constraint firstAttribute="height" constant="36" id="oEL-1j-6Xy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oBF-8l-u77" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Ss8-yQ-9Q9"/>
+                            <constraint firstItem="1HB-lU-2eB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="18" id="elU-T8-xcc"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1HB-lU-2eB" secondAttribute="bottom" constant="8" id="i4J-4p-yYq"/>
+                            <constraint firstAttribute="trailing" secondItem="oBF-8l-u77" secondAttribute="trailing" id="izl-by-HN3"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="oBF-8l-u77" secondAttribute="bottom" id="jfP-Sl-Jqe"/>
+                            <constraint firstItem="oBF-8l-u77" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="yOo-pz-RHp"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246.5" y="378.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iVote_Launch_Screen" width="375" height="667"/>
+    </resources>
+</document>
