@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682BD4E01CF28C8900F84E58 /* CreateVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */; };
+		682BD4EA1CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E31CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m */; };
+		682BD4EB1CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E51CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m */; };
+		682BD4EC1CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E71CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m */; };
+		682BD4ED1CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		684C4FBC1CEE4CC70026BF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */; };
 		AB78AA2A1CD958F10048677C /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0C1CD958F10048677C /* AsyncButton.swift */; };
 		AB78AA2B1CD958F10048677C /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0D1CD958F10048677C /* AsyncImageView.swift */; };
@@ -63,6 +68,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateVoteViewController.swift; sourceTree = "<group>"; };
+		682BD4E21CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		682BD4E31CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		682BD4E41CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		682BD4E51CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		682BD4E61CF28D2800F84E58 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		682BD4E71CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		682BD4E81CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB78AA0C1CD958F10048677C /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		AB78AA0D1CD958F10048677C /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
@@ -133,9 +147,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		682BD4E11CF28D2800F84E58 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				682BD4E21CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.h */,
+				682BD4E31CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m */,
+				682BD4E41CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.h */,
+				682BD4E51CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m */,
+				682BD4E61CF28D2800F84E58 /* TPKeyboardAvoidingTableView.h */,
+				682BD4E71CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m */,
+				682BD4E81CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
 		AB78AA0B1CD958F10048677C /* Spring */ = {
 			isa = PBXGroup;
 			children = (
+				682BD4E11CF28D2800F84E58 /* TPKeyboardAvoiding */,
 				AB78AA0C1CD958F10048677C /* AsyncButton.swift */,
 				AB78AA0D1CD958F10048677C /* AsyncImageView.swift */,
 				AB78AA0E1CD958F10048677C /* AutoTextView.swift */,
@@ -197,6 +227,7 @@
 				AB78AA0B1CD958F10048677C /* Spring */,
 				ABC8C9751CC97E25000B94D0 /* AppDelegate.swift */,
 				ABC8C9771CC97E25000B94D0 /* ViewController.swift */,
+				682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */,
 				ABC8C9791CC97E25000B94D0 /* Main.storyboard */,
 				ABC8C97C1CC97E25000B94D0 /* Assets.xcassets */,
 				684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */,
@@ -359,12 +390,14 @@
 				AB78AA401CD958F10048677C /* SpringLabel.swift in Sources */,
 				AB78AA351CD958F10048677C /* ImageLoader.swift in Sources */,
 				AB78AA3A1CD958F10048677C /* Misc.swift in Sources */,
+				682BD4ED1CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				AB78AA2F1CD958F10048677C /* DesignableImageView.swift in Sources */,
 				AB78AA3F1CD958F10048677C /* SpringImageView.swift in Sources */,
 				ABC8C9781CC97E25000B94D0 /* ViewController.swift in Sources */,
 				AB78AA3B1CD958F10048677C /* SoundPlayer.swift in Sources */,
 				AB78AA421CD958F10048677C /* SpringTextView.swift in Sources */,
 				ABC8C9761CC97E25000B94D0 /* AppDelegate.swift in Sources */,
+				682BD4EB1CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				AB78AA341CD958F10048677C /* DesignableView.swift in Sources */,
 				AB78AA3D1CD958F10048677C /* SpringAnimation.swift in Sources */,
 				AB78AA3C1CD958F10048677C /* Spring.swift in Sources */,
@@ -372,6 +405,7 @@
 				AB78AA411CD958F10048677C /* SpringTextField.swift in Sources */,
 				AB78AA2E1CD958F10048677C /* DesignableButton.swift in Sources */,
 				AB78AA321CD958F10048677C /* DesignableTextField.swift in Sources */,
+				682BD4E01CF28C8900F84E58 /* CreateVoteViewController.swift in Sources */,
 				AB78AA2A1CD958F10048677C /* AsyncButton.swift in Sources */,
 				AB78AA371CD958F10048677C /* KeyboardLayoutConstraint.swift in Sources */,
 				AB78AA3E1CD958F10048677C /* SpringButton.swift in Sources */,
@@ -381,8 +415,10 @@
 				AB78AA331CD958F10048677C /* DesignableTextView.swift in Sources */,
 				AB78AA301CD958F10048677C /* DesignableLabel.swift in Sources */,
 				AB78AA461CD958F10048677C /* UnwindSegue.swift in Sources */,
+				682BD4EA1CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				AB78AA441CD958F10048677C /* TransitionManager.swift in Sources */,
 				AB78AA2D1CD958F10048677C /* BlurView.swift in Sources */,
+				682BD4EC1CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m in Sources */,
 				AB78AA431CD958F10048677C /* SpringView.swift in Sources */,
 				AB78AA451CD958F10048677C /* TransitionZoom.swift in Sources */,
 			);
