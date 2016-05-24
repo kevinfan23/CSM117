@@ -12,6 +12,7 @@
 		682BD4EB1CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E51CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m */; };
 		682BD4EC1CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E71CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m */; };
 		682BD4ED1CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		682BD4FC1CF29DE000F84E58 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */; };
 		684C4FBC1CEE4CC70026BF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */; };
 		AB78AA2A1CD958F10048677C /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0C1CD958F10048677C /* AsyncButton.swift */; };
 		AB78AA2B1CD958F10048677C /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0D1CD958F10048677C /* AsyncImageView.swift */; };
@@ -77,6 +78,7 @@
 		682BD4E71CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		682BD4E81CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB78AA0C1CD958F10048677C /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		AB78AA0D1CD958F10048677C /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				ABC8C9751CC97E25000B94D0 /* AppDelegate.swift */,
 				ABC8C9771CC97E25000B94D0 /* ViewController.swift */,
 				682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */,
+				682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */,
 				ABC8C9791CC97E25000B94D0 /* Main.storyboard */,
 				ABC8C97C1CC97E25000B94D0 /* Assets.xcassets */,
 				684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */,
@@ -419,6 +422,7 @@
 				AB78AA441CD958F10048677C /* TransitionManager.swift in Sources */,
 				AB78AA2D1CD958F10048677C /* BlurView.swift in Sources */,
 				682BD4EC1CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m in Sources */,
+				682BD4FC1CF29DE000F84E58 /* ReceiptViewController.swift in Sources */,
 				AB78AA431CD958F10048677C /* SpringView.swift in Sources */,
 				AB78AA451CD958F10048677C /* TransitionZoom.swift in Sources */,
 			);
