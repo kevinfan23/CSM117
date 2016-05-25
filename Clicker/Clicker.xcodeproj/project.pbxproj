@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6815EF111CF52ABB004CE78C /* SearchingVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815EF101CF52ABB004CE78C /* SearchingVoteViewController.swift */; };
 		682BD4E01CF28C8900F84E58 /* CreateVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */; };
 		682BD4EA1CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E31CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m */; };
 		682BD4EB1CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E51CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m */; };
@@ -69,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6815EF101CF52ABB004CE78C /* SearchingVoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchingVoteViewController.swift; sourceTree = "<group>"; };
 		682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateVoteViewController.swift; sourceTree = "<group>"; };
 		682BD4E21CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
 		682BD4E31CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				ABC8C9771CC97E25000B94D0 /* ViewController.swift */,
 				682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */,
 				682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */,
+				6815EF101CF52ABB004CE78C /* SearchingVoteViewController.swift */,
 				ABC8C9791CC97E25000B94D0 /* Main.storyboard */,
 				ABC8C97C1CC97E25000B94D0 /* Assets.xcassets */,
 				684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */,
@@ -421,6 +424,7 @@
 				682BD4EA1CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				AB78AA441CD958F10048677C /* TransitionManager.swift in Sources */,
 				AB78AA2D1CD958F10048677C /* BlurView.swift in Sources */,
+				6815EF111CF52ABB004CE78C /* SearchingVoteViewController.swift in Sources */,
 				682BD4EC1CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m in Sources */,
 				682BD4FC1CF29DE000F84E58 /* ReceiptViewController.swift in Sources */,
 				AB78AA431CD958F10048677C /* SpringView.swift in Sources */,
