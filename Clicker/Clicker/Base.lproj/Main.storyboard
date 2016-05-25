@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HrT-4X-1V7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HrT-4X-1V7">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -187,7 +187,7 @@
         <!--Join a Vote-->
         <scene sceneID="vfL-dw-CxT">
             <objects>
-                <viewController id="Lcb-9n-SgK" sceneMemberID="viewController">
+                <viewController id="Lcb-9n-SgK" customClass="JoinVoteViewController" customModule="Clicker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vVq-If-Kal"/>
                         <viewControllerLayoutGuide type="bottom" id="NZb-dz-9cL"/>
@@ -897,10 +897,10 @@
             </objects>
             <point key="canvasLocation" x="3000.5" y="328.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Submit Option-->
         <scene sceneID="iXI-xW-l0Y">
             <objects>
-                <viewController id="RkC-dW-MHf" sceneMemberID="viewController">
+                <viewController title="Submit Option" id="RkC-dW-MHf" customClass="SubmitOpitonViewController" customModule="Clicker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Dp9-7o-hJ0"/>
                         <viewControllerLayoutGuide type="bottom" id="MBI-Dz-OmP"/>
@@ -957,30 +957,6 @@
                                 <color key="textColor" red="0.23137254900000001" green="0.86666666670000003" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgc-Dy-XbE">
-                                <rect key="frame" x="99" y="361" width="131" height="21"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWc-xt-EBK">
-                                <rect key="frame" x="99" y="410" width="131" height="21"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRs-xu-l60">
-                                <rect key="frame" x="99" y="458" width="131" height="21"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmL-DN-bYW">
-                                <rect key="frame" x="99" y="505" width="131" height="21"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKE-3b-JlY" customClass="DesignableButton" customModule="Clicker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="606" width="375" height="61"/>
                                 <color key="backgroundColor" red="0.23137254900000001" green="0.86666666670000003" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -993,7 +969,36 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="optionSubmitted:" destination="RkC-dW-MHf" eventType="touchUpInside" id="LUZ-yR-dI6"/>
                                     <segue destination="2lt-cg-LB2" kind="show" id="QYf-uq-3jA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85K-KR-Bs3">
+                                <rect key="frame" x="105" y="357" width="30" height="30"/>
+                                <state key="normal" title="A"/>
+                                <connections>
+                                    <action selector="change_dataToSend:" destination="RkC-dW-MHf" eventType="touchUpInside" id="wWl-VQ-PbB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIh-II-Se0">
+                                <rect key="frame" x="105" y="406" width="30" height="30"/>
+                                <state key="normal" title="B"/>
+                                <connections>
+                                    <action selector="change_dataToSend:" destination="RkC-dW-MHf" eventType="touchUpInside" id="FFv-iR-4vM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUL-6F-70E">
+                                <rect key="frame" x="105" y="448" width="30" height="30"/>
+                                <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="change_dataToSend:" destination="RkC-dW-MHf" eventType="touchUpInside" id="jw1-Nu-op5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0To-qo-jIa">
+                                <rect key="frame" x="105" y="498" width="30" height="30"/>
+                                <state key="normal" title="D"/>
+                                <connections>
+                                    <action selector="change_dataToSend:" destination="RkC-dW-MHf" eventType="touchUpInside" id="8ai-vy-ji8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1004,6 +1009,13 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="A_Button" destination="85K-KR-Bs3" id="DKr-Je-sdA"/>
+                        <outlet property="B_Button" destination="IIh-II-Se0" id="h82-wQ-0hY"/>
+                        <outlet property="C_Button" destination="HUL-6F-70E" id="85P-ND-veU"/>
+                        <outlet property="D_Button" destination="0To-qo-jIa" id="tv2-UG-emd"/>
+                        <outlet property="submitButton" destination="bKE-3b-JlY" id="FdM-rh-52R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U6S-uw-vIo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -14,6 +14,9 @@
 		682BD4ED1CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		682BD4FC1CF29DE000F84E58 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */; };
 		684C4FBC1CEE4CC70026BF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */; };
+		AB1E060B1CF50B0D00B076DA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1E060A1CF50B0D00B076DA /* CoreBluetooth.framework */; };
+		AB1E060D1CF50B9300B076DA /* Defintions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E060C1CF50B9300B076DA /* Defintions.swift */; };
+		AB1E060F1CF5122A00B076DA /* SubmitOpitonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E060E1CF5122A00B076DA /* SubmitOpitonViewController.swift */; };
 		AB78AA2A1CD958F10048677C /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0C1CD958F10048677C /* AsyncButton.swift */; };
 		AB78AA2B1CD958F10048677C /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0D1CD958F10048677C /* AsyncImageView.swift */; };
 		AB78AA2C1CD958F10048677C /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0E1CD958F10048677C /* AutoTextView.swift */; };
@@ -80,6 +83,9 @@
 		682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB1E060A1CF50B0D00B076DA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AB1E060C1CF50B9300B076DA /* Defintions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defintions.swift; sourceTree = "<group>"; };
+		AB1E060E1CF5122A00B076DA /* SubmitOpitonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitOpitonViewController.swift; sourceTree = "<group>"; };
 		AB78AA0C1CD958F10048677C /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		AB78AA0D1CD958F10048677C /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		AB78AA0E1CD958F10048677C /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1E060B1CF50B0D00B076DA /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +213,7 @@
 		ABC8C9691CC97E25000B94D0 = {
 			isa = PBXGroup;
 			children = (
+				AB1E060A1CF50B0D00B076DA /* CoreBluetooth.framework */,
 				ABC8C9741CC97E25000B94D0 /* Clicker */,
 				ABC8C9891CC97E25000B94D0 /* ClickerTests */,
 				ABC8C9941CC97E25000B94D0 /* ClickerUITests */,
@@ -230,7 +238,9 @@
 				ABC8C9751CC97E25000B94D0 /* AppDelegate.swift */,
 				ABC8C9771CC97E25000B94D0 /* ViewController.swift */,
 				682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */,
+				AB1E060C1CF50B9300B076DA /* Defintions.swift */,
 				682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */,
+				AB1E060E1CF5122A00B076DA /* SubmitOpitonViewController.swift */,
 				ABC8C9791CC97E25000B94D0 /* Main.storyboard */,
 				ABC8C97C1CC97E25000B94D0 /* Assets.xcassets */,
 				684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */,
@@ -325,6 +335,7 @@
 				TargetAttributes = {
 					ABC8C9711CC97E25000B94D0 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 32EHYX9664;
 					};
 					ABC8C9851CC97E25000B94D0 = {
 						CreatedOnToolsVersion = 7.3;
@@ -403,6 +414,7 @@
 				682BD4EB1CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				AB78AA341CD958F10048677C /* DesignableView.swift in Sources */,
 				AB78AA3D1CD958F10048677C /* SpringAnimation.swift in Sources */,
+				AB1E060F1CF5122A00B076DA /* SubmitOpitonViewController.swift in Sources */,
 				AB78AA3C1CD958F10048677C /* Spring.swift in Sources */,
 				AB78AA381CD958F10048677C /* LoadingView.swift in Sources */,
 				AB78AA411CD958F10048677C /* SpringTextField.swift in Sources */,
@@ -410,6 +422,7 @@
 				AB78AA321CD958F10048677C /* DesignableTextField.swift in Sources */,
 				682BD4E01CF28C8900F84E58 /* CreateVoteViewController.swift in Sources */,
 				AB78AA2A1CD958F10048677C /* AsyncButton.swift in Sources */,
+				AB1E060D1CF50B9300B076DA /* Defintions.swift in Sources */,
 				AB78AA371CD958F10048677C /* KeyboardLayoutConstraint.swift in Sources */,
 				AB78AA3E1CD958F10048677C /* SpringButton.swift in Sources */,
 				AB78AA2B1CD958F10048677C /* AsyncImageView.swift in Sources */,
@@ -560,10 +573,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Clicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.Clicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -571,10 +587,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Clicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.Clicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
