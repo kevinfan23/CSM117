@@ -16,6 +16,14 @@ class SubmitOpitonViewController: UIViewController, CBPeripheralManagerDelegate,
     @IBOutlet private var B_Button:UIButton!
     @IBOutlet private var C_Button:UIButton!
     @IBOutlet private var D_Button:UIButton!
+  
+    
+    
+    private var peripheralManager: CBPeripheralManager?
+    private var transferCharacteristic: CBMutableCharacteristic?
+    
+    private var dataToSend: NSData?
+    private var sendDataIndex: Int?
     @IBAction func change_dataToSend(sender: UIButton){
         switch sender {
         case A_Button:
@@ -35,13 +43,7 @@ class SubmitOpitonViewController: UIViewController, CBPeripheralManagerDelegate,
         }
         
     }
-    
-    
-    private var peripheralManager: CBPeripheralManager?
-    private var transferCharacteristic: CBMutableCharacteristic?
-    
-    private var dataToSend: NSData?
-    private var sendDataIndex: Int?
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()

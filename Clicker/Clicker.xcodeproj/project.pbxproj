@@ -15,6 +15,7 @@
 		682BD4ED1CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		682BD4FC1CF29DE000F84E58 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */; };
 		684C4FBC1CEE4CC70026BF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */; };
+		AB3BBC011CF7BF8E00A2B2D2 /* VoteResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3BBC001CF7BF8E00A2B2D2 /* VoteResultViewController.swift */; };
 		AB78AA2A1CD958F10048677C /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0C1CD958F10048677C /* AsyncButton.swift */; };
 		AB78AA2B1CD958F10048677C /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0D1CD958F10048677C /* AsyncImageView.swift */; };
 		AB78AA2C1CD958F10048677C /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0E1CD958F10048677C /* AutoTextView.swift */; };
@@ -84,6 +85,7 @@
 		682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB3BBC001CF7BF8E00A2B2D2 /* VoteResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteResultViewController.swift; sourceTree = "<group>"; };
 		AB78AA0C1CD958F10048677C /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		AB78AA0D1CD958F10048677C /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		AB78AA0E1CD958F10048677C /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
@@ -236,10 +238,11 @@
 				ABC8C9751CC97E25000B94D0 /* AppDelegate.swift */,
 				ABC8C9771CC97E25000B94D0 /* ViewController.swift */,
 				682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */,
-				682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */,
 				6815EF101CF52ABB004CE78C /* SearchingVoteViewController.swift */,
 				AB94E42D1CF57096006A9A01 /* SubmitOptionViewController.swift */,
+				682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */,
 				AB94E42F1CF5713D006A9A01 /* Definitions.swift */,
+				AB3BBC001CF7BF8E00A2B2D2 /* VoteResultViewController.swift */,
 				ABC8C9791CC97E25000B94D0 /* Main.storyboard */,
 				ABC8C97C1CC97E25000B94D0 /* Assets.xcassets */,
 				684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */,
@@ -424,6 +427,7 @@
 				AB78AA3E1CD958F10048677C /* SpringButton.swift in Sources */,
 				AB78AA2B1CD958F10048677C /* AsyncImageView.swift in Sources */,
 				AB94E4301CF5713D006A9A01 /* Definitions.swift in Sources */,
+				AB3BBC011CF7BF8E00A2B2D2 /* VoteResultViewController.swift in Sources */,
 				AB78AA311CD958F10048677C /* DesignableTabBarController.swift in Sources */,
 				AB78AA2C1CD958F10048677C /* AutoTextView.swift in Sources */,
 				AB78AA331CD958F10048677C /* DesignableTextView.swift in Sources */,
