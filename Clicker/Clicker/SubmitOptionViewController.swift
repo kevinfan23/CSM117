@@ -58,6 +58,7 @@ class SubmitOpitonViewController: UIViewController, CBPeripheralManagerDelegate,
         
         // Don't keep it going while we're not showing.
         peripheralManager?.stopAdvertising()
+        //dataToSend = "".dataUsingEncoding(NSUTF8StringEncoding)
     }
     
     override func didReceiveMemoryWarning() {
