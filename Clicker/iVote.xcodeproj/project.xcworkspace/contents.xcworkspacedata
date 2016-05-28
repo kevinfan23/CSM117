@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Clicker.xcodeproj">
+      location = "self:/Users/Marshall/Desktop/CSM117/Clicker/iVote.xcodeproj">
    </FileRef>
 </Workspace>

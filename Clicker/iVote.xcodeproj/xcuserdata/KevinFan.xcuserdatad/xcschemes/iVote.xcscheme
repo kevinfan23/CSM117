@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABC8C9711CC97E25000B94D0"
-               BuildableName = "Clicker.app"
-               BlueprintName = "Clicker"
-               ReferencedContainer = "container:Clicker.xcodeproj">
+               BuildableName = "iVote.app"
+               BlueprintName = "iVote"
+               ReferencedContainer = "container:iVote.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABC8C9851CC97E25000B94D0"
-               BuildableName = "ClickerTests.xctest"
-               BlueprintName = "ClickerTests"
-               ReferencedContainer = "container:Clicker.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABC8C9901CC97E25000B94D0"
-               BuildableName = "ClickerUITests.xctest"
-               BlueprintName = "ClickerUITests"
-               ReferencedContainer = "container:Clicker.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABC8C9711CC97E25000B94D0"
-            BuildableName = "Clicker.app"
-            BlueprintName = "Clicker"
-            ReferencedContainer = "container:Clicker.xcodeproj">
+            BuildableName = "iVote.app"
+            BlueprintName = "iVote"
+            ReferencedContainer = "container:iVote.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABC8C9711CC97E25000B94D0"
-            BuildableName = "Clicker.app"
-            BlueprintName = "Clicker"
-            ReferencedContainer = "container:Clicker.xcodeproj">
+            BuildableName = "iVote.app"
+            BlueprintName = "iVote"
+            ReferencedContainer = "container:iVote.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABC8C9711CC97E25000B94D0"
-            BuildableName = "Clicker.app"
-            BlueprintName = "Clicker"
-            ReferencedContainer = "container:Clicker.xcodeproj">
+            BuildableName = "iVote.app"
+            BlueprintName = "iVote"
+            ReferencedContainer = "container:iVote.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

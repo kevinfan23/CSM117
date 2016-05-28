@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6815EF111CF52ABB004CE78C /* SearchingVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815EF101CF52ABB004CE78C /* SearchingVoteViewController.swift */; };
+		682BD4E01CF28C8900F84E58 /* CreateVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */; };
+		682BD4EA1CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E31CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m */; };
+		682BD4EB1CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E51CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m */; };
+		682BD4EC1CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E71CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m */; };
+		682BD4ED1CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		682BD4FC1CF29DE000F84E58 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */; };
 		684C4FBC1CEE4CC70026BF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */; };
+		AB3BBC011CF7BF8E00A2B2D2 /* VoteResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3BBC001CF7BF8E00A2B2D2 /* VoteResultViewController.swift */; };
 		AB78AA2A1CD958F10048677C /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0C1CD958F10048677C /* AsyncButton.swift */; };
 		AB78AA2B1CD958F10048677C /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0D1CD958F10048677C /* AsyncImageView.swift */; };
 		AB78AA2C1CD958F10048677C /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0E1CD958F10048677C /* AutoTextView.swift */; };
@@ -37,6 +45,8 @@
 		AB78AA441CD958F10048677C /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA271CD958F10048677C /* TransitionManager.swift */; };
 		AB78AA451CD958F10048677C /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA281CD958F10048677C /* TransitionZoom.swift */; };
 		AB78AA461CD958F10048677C /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA291CD958F10048677C /* UnwindSegue.swift */; };
+		AB94E42E1CF57096006A9A01 /* SubmitOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94E42D1CF57096006A9A01 /* SubmitOptionViewController.swift */; };
+		AB94E4301CF5713D006A9A01 /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94E42F1CF5713D006A9A01 /* Definitions.swift */; };
 		ABC8C9761CC97E25000B94D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8C9751CC97E25000B94D0 /* AppDelegate.swift */; };
 		ABC8C9781CC97E25000B94D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8C9771CC97E25000B94D0 /* ViewController.swift */; };
 		ABC8C97B1CC97E25000B94D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC8C9791CC97E25000B94D0 /* Main.storyboard */; };
@@ -63,7 +73,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6815EF101CF52ABB004CE78C /* SearchingVoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchingVoteViewController.swift; sourceTree = "<group>"; };
+		682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateVoteViewController.swift; sourceTree = "<group>"; };
+		682BD4E21CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		682BD4E31CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		682BD4E41CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		682BD4E51CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		682BD4E61CF28D2800F84E58 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		682BD4E71CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		682BD4E81CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB3BBC001CF7BF8E00A2B2D2 /* VoteResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteResultViewController.swift; sourceTree = "<group>"; };
 		AB78AA0C1CD958F10048677C /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		AB78AA0D1CD958F10048677C /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		AB78AA0E1CD958F10048677C /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
@@ -94,16 +116,18 @@
 		AB78AA271CD958F10048677C /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		AB78AA281CD958F10048677C /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		AB78AA291CD958F10048677C /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
-		ABC8C9721CC97E25000B94D0 /* Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB94E42D1CF57096006A9A01 /* SubmitOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitOptionViewController.swift; sourceTree = "<group>"; };
+		AB94E42F1CF5713D006A9A01 /* Definitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+		ABC8C9721CC97E25000B94D0 /* iVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC8C9751CC97E25000B94D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABC8C9771CC97E25000B94D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABC8C97A1CC97E25000B94D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABC8C97C1CC97E25000B94D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC8C9811CC97E25000B94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABC8C9861CC97E25000B94D0 /* ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC8C9861CC97E25000B94D0 /* iVote.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iVote.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC8C98A1CC97E25000B94D0 /* ClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerTests.swift; sourceTree = "<group>"; };
 		ABC8C98C1CC97E25000B94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABC8C9911CC97E25000B94D0 /* ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC8C9911CC97E25000B94D0 /* iVote.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iVote.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC8C9951CC97E25000B94D0 /* ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerUITests.swift; sourceTree = "<group>"; };
 		ABC8C9971CC97E25000B94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,9 +157,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		682BD4E11CF28D2800F84E58 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				682BD4E21CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.h */,
+				682BD4E31CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m */,
+				682BD4E41CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.h */,
+				682BD4E51CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m */,
+				682BD4E61CF28D2800F84E58 /* TPKeyboardAvoidingTableView.h */,
+				682BD4E71CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m */,
+				682BD4E81CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
 		AB78AA0B1CD958F10048677C /* Spring */ = {
 			isa = PBXGroup;
 			children = (
+				682BD4E11CF28D2800F84E58 /* TPKeyboardAvoiding */,
 				AB78AA0C1CD958F10048677C /* AsyncButton.swift */,
 				AB78AA0D1CD958F10048677C /* AsyncImageView.swift */,
 				AB78AA0E1CD958F10048677C /* AutoTextView.swift */,
@@ -184,9 +224,9 @@
 		ABC8C9731CC97E25000B94D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABC8C9721CC97E25000B94D0 /* Clicker.app */,
-				ABC8C9861CC97E25000B94D0 /* ClickerTests.xctest */,
-				ABC8C9911CC97E25000B94D0 /* ClickerUITests.xctest */,
+				ABC8C9721CC97E25000B94D0 /* iVote.app */,
+				ABC8C9861CC97E25000B94D0 /* iVote.xctest */,
+				ABC8C9911CC97E25000B94D0 /* iVote.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +237,12 @@
 				AB78AA0B1CD958F10048677C /* Spring */,
 				ABC8C9751CC97E25000B94D0 /* AppDelegate.swift */,
 				ABC8C9771CC97E25000B94D0 /* ViewController.swift */,
+				682BD4DF1CF28C8900F84E58 /* CreateVoteViewController.swift */,
+				6815EF101CF52ABB004CE78C /* SearchingVoteViewController.swift */,
+				AB94E42D1CF57096006A9A01 /* SubmitOptionViewController.swift */,
+				682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */,
+				AB94E42F1CF5713D006A9A01 /* Definitions.swift */,
+				AB3BBC001CF7BF8E00A2B2D2 /* VoteResultViewController.swift */,
 				ABC8C9791CC97E25000B94D0 /* Main.storyboard */,
 				ABC8C97C1CC97E25000B94D0 /* Assets.xcassets */,
 				684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */,
@@ -226,9 +272,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABC8C9711CC97E25000B94D0 /* Clicker */ = {
+		ABC8C9711CC97E25000B94D0 /* iVote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABC8C99A1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "Clicker" */;
+			buildConfigurationList = ABC8C99A1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVote" */;
 			buildPhases = (
 				ABC8C96E1CC97E25000B94D0 /* Sources */,
 				ABC8C96F1CC97E25000B94D0 /* Frameworks */,
@@ -238,14 +284,14 @@
 			);
 			dependencies = (
 			);
-			name = Clicker;
+			name = iVote;
 			productName = Clicker;
-			productReference = ABC8C9721CC97E25000B94D0 /* Clicker.app */;
+			productReference = ABC8C9721CC97E25000B94D0 /* iVote.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ABC8C9851CC97E25000B94D0 /* ClickerTests */ = {
+		ABC8C9851CC97E25000B94D0 /* iVoteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABC8C99D1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "ClickerTests" */;
+			buildConfigurationList = ABC8C99D1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVoteTests" */;
 			buildPhases = (
 				ABC8C9821CC97E25000B94D0 /* Sources */,
 				ABC8C9831CC97E25000B94D0 /* Frameworks */,
@@ -256,14 +302,14 @@
 			dependencies = (
 				ABC8C9881CC97E25000B94D0 /* PBXTargetDependency */,
 			);
-			name = ClickerTests;
+			name = iVoteTests;
 			productName = ClickerTests;
-			productReference = ABC8C9861CC97E25000B94D0 /* ClickerTests.xctest */;
+			productReference = ABC8C9861CC97E25000B94D0 /* iVote.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ABC8C9901CC97E25000B94D0 /* ClickerUITests */ = {
+		ABC8C9901CC97E25000B94D0 /* iVoteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABC8C9A01CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "ClickerUITests" */;
+			buildConfigurationList = ABC8C9A01CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVoteUITests" */;
 			buildPhases = (
 				ABC8C98D1CC97E25000B94D0 /* Sources */,
 				ABC8C98E1CC97E25000B94D0 /* Frameworks */,
@@ -274,9 +320,9 @@
 			dependencies = (
 				ABC8C9931CC97E25000B94D0 /* PBXTargetDependency */,
 			);
-			name = ClickerUITests;
+			name = iVoteUITests;
 			productName = ClickerUITests;
-			productReference = ABC8C9911CC97E25000B94D0 /* ClickerUITests.xctest */;
+			productReference = ABC8C9911CC97E25000B94D0 /* iVote.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -291,6 +337,7 @@
 				TargetAttributes = {
 					ABC8C9711CC97E25000B94D0 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = M2R6TER3AU;
 					};
 					ABC8C9851CC97E25000B94D0 = {
 						CreatedOnToolsVersion = 7.3;
@@ -302,7 +349,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ABC8C96D1CC97E25000B94D0 /* Build configuration list for PBXProject "Clicker" */;
+			buildConfigurationList = ABC8C96D1CC97E25000B94D0 /* Build configuration list for PBXProject "iVote" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -315,9 +362,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABC8C9711CC97E25000B94D0 /* Clicker */,
-				ABC8C9851CC97E25000B94D0 /* ClickerTests */,
-				ABC8C9901CC97E25000B94D0 /* ClickerUITests */,
+				ABC8C9711CC97E25000B94D0 /* iVote */,
+				ABC8C9851CC97E25000B94D0 /* iVoteTests */,
+				ABC8C9901CC97E25000B94D0 /* iVoteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -359,12 +406,14 @@
 				AB78AA401CD958F10048677C /* SpringLabel.swift in Sources */,
 				AB78AA351CD958F10048677C /* ImageLoader.swift in Sources */,
 				AB78AA3A1CD958F10048677C /* Misc.swift in Sources */,
+				682BD4ED1CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				AB78AA2F1CD958F10048677C /* DesignableImageView.swift in Sources */,
 				AB78AA3F1CD958F10048677C /* SpringImageView.swift in Sources */,
 				ABC8C9781CC97E25000B94D0 /* ViewController.swift in Sources */,
 				AB78AA3B1CD958F10048677C /* SoundPlayer.swift in Sources */,
 				AB78AA421CD958F10048677C /* SpringTextView.swift in Sources */,
 				ABC8C9761CC97E25000B94D0 /* AppDelegate.swift in Sources */,
+				682BD4EB1CF28D2800F84E58 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				AB78AA341CD958F10048677C /* DesignableView.swift in Sources */,
 				AB78AA3D1CD958F10048677C /* SpringAnimation.swift in Sources */,
 				AB78AA3C1CD958F10048677C /* Spring.swift in Sources */,
@@ -372,17 +421,25 @@
 				AB78AA411CD958F10048677C /* SpringTextField.swift in Sources */,
 				AB78AA2E1CD958F10048677C /* DesignableButton.swift in Sources */,
 				AB78AA321CD958F10048677C /* DesignableTextField.swift in Sources */,
+				AB94E42E1CF57096006A9A01 /* SubmitOptionViewController.swift in Sources */,
+				682BD4E01CF28C8900F84E58 /* CreateVoteViewController.swift in Sources */,
 				AB78AA2A1CD958F10048677C /* AsyncButton.swift in Sources */,
 				AB78AA371CD958F10048677C /* KeyboardLayoutConstraint.swift in Sources */,
 				AB78AA3E1CD958F10048677C /* SpringButton.swift in Sources */,
 				AB78AA2B1CD958F10048677C /* AsyncImageView.swift in Sources */,
+				AB94E4301CF5713D006A9A01 /* Definitions.swift in Sources */,
+				AB3BBC011CF7BF8E00A2B2D2 /* VoteResultViewController.swift in Sources */,
 				AB78AA311CD958F10048677C /* DesignableTabBarController.swift in Sources */,
 				AB78AA2C1CD958F10048677C /* AutoTextView.swift in Sources */,
 				AB78AA331CD958F10048677C /* DesignableTextView.swift in Sources */,
 				AB78AA301CD958F10048677C /* DesignableLabel.swift in Sources */,
 				AB78AA461CD958F10048677C /* UnwindSegue.swift in Sources */,
+				682BD4EA1CF28D2800F84E58 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				AB78AA441CD958F10048677C /* TransitionManager.swift in Sources */,
 				AB78AA2D1CD958F10048677C /* BlurView.swift in Sources */,
+				6815EF111CF52ABB004CE78C /* SearchingVoteViewController.swift in Sources */,
+				682BD4EC1CF28D2800F84E58 /* TPKeyboardAvoidingTableView.m in Sources */,
+				682BD4FC1CF29DE000F84E58 /* ReceiptViewController.swift in Sources */,
 				AB78AA431CD958F10048677C /* SpringView.swift in Sources */,
 				AB78AA451CD958F10048677C /* TransitionZoom.swift in Sources */,
 			);
@@ -409,12 +466,12 @@
 /* Begin PBXTargetDependency section */
 		ABC8C9881CC97E25000B94D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABC8C9711CC97E25000B94D0 /* Clicker */;
+			target = ABC8C9711CC97E25000B94D0 /* iVote */;
 			targetProxy = ABC8C9871CC97E25000B94D0 /* PBXContainerItemProxy */;
 		};
 		ABC8C9931CC97E25000B94D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABC8C9711CC97E25000B94D0 /* Clicker */;
+			target = ABC8C9711CC97E25000B94D0 /* iVote */;
 			targetProxy = ABC8C9921CC97E25000B94D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,6 +506,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: marsakamarshall@gmail.com (6VBVJFHWHH)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -471,6 +529,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,6 +554,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: marsakamarshall@gmail.com (6VBVJFHWHH)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -510,6 +570,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -520,10 +581,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Clicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UCLA.Clicker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = UCLA.Clicker0;
+				PRODUCT_NAME = iVote;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -531,10 +595,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Clicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UCLA.Clicker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = UCLA.Clicker0;
+				PRODUCT_NAME = iVote;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -545,8 +612,8 @@
 				INFOPLIST_FILE = ClickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.ClickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clicker.app/Clicker";
+				PRODUCT_NAME = iVote;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iVote.app/iVote";
 			};
 			name = Debug;
 		};
@@ -557,8 +624,8 @@
 				INFOPLIST_FILE = ClickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.ClickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clicker.app/Clicker";
+				PRODUCT_NAME = iVote;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iVote.app/iVote";
 			};
 			name = Release;
 		};
@@ -568,7 +635,7 @@
 				INFOPLIST_FILE = ClickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.ClickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iVote;
 				TEST_TARGET_NAME = Clicker;
 			};
 			name = Debug;
@@ -579,7 +646,7 @@
 				INFOPLIST_FILE = ClickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.ClickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iVote;
 				TEST_TARGET_NAME = Clicker;
 			};
 			name = Release;
@@ -587,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABC8C96D1CC97E25000B94D0 /* Build configuration list for PBXProject "Clicker" */ = {
+		ABC8C96D1CC97E25000B94D0 /* Build configuration list for PBXProject "iVote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC8C9981CC97E25000B94D0 /* Debug */,
@@ -596,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABC8C99A1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "Clicker" */ = {
+		ABC8C99A1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC8C99B1CC97E25000B94D0 /* Debug */,
@@ -605,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABC8C99D1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "ClickerTests" */ = {
+		ABC8C99D1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVoteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC8C99E1CC97E25000B94D0 /* Debug */,
@@ -614,7 +681,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABC8C9A01CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "ClickerUITests" */ = {
+		ABC8C9A01CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVoteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC8C9A11CC97E25000B94D0 /* Debug */,
