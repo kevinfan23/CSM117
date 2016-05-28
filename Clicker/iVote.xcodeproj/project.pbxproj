@@ -118,16 +118,16 @@
 		AB78AA291CD958F10048677C /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		AB94E42D1CF57096006A9A01 /* SubmitOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitOptionViewController.swift; sourceTree = "<group>"; };
 		AB94E42F1CF5713D006A9A01 /* Definitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
-		ABC8C9721CC97E25000B94D0 /* Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC8C9721CC97E25000B94D0 /* iVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC8C9751CC97E25000B94D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABC8C9771CC97E25000B94D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABC8C97A1CC97E25000B94D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABC8C97C1CC97E25000B94D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC8C9811CC97E25000B94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABC8C9861CC97E25000B94D0 /* ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC8C9861CC97E25000B94D0 /* iVote.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iVote.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC8C98A1CC97E25000B94D0 /* ClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerTests.swift; sourceTree = "<group>"; };
 		ABC8C98C1CC97E25000B94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABC8C9911CC97E25000B94D0 /* ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC8C9911CC97E25000B94D0 /* iVote.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iVote.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC8C9951CC97E25000B94D0 /* ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerUITests.swift; sourceTree = "<group>"; };
 		ABC8C9971CC97E25000B94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -224,9 +224,9 @@
 		ABC8C9731CC97E25000B94D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABC8C9721CC97E25000B94D0 /* Clicker.app */,
-				ABC8C9861CC97E25000B94D0 /* ClickerTests.xctest */,
-				ABC8C9911CC97E25000B94D0 /* ClickerUITests.xctest */,
+				ABC8C9721CC97E25000B94D0 /* iVote.app */,
+				ABC8C9861CC97E25000B94D0 /* iVote.xctest */,
+				ABC8C9911CC97E25000B94D0 /* iVote.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,9 +272,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABC8C9711CC97E25000B94D0 /* Clicker */ = {
+		ABC8C9711CC97E25000B94D0 /* iVote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABC8C99A1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "Clicker" */;
+			buildConfigurationList = ABC8C99A1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVote" */;
 			buildPhases = (
 				ABC8C96E1CC97E25000B94D0 /* Sources */,
 				ABC8C96F1CC97E25000B94D0 /* Frameworks */,
@@ -284,14 +284,14 @@
 			);
 			dependencies = (
 			);
-			name = Clicker;
+			name = iVote;
 			productName = Clicker;
-			productReference = ABC8C9721CC97E25000B94D0 /* Clicker.app */;
+			productReference = ABC8C9721CC97E25000B94D0 /* iVote.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ABC8C9851CC97E25000B94D0 /* ClickerTests */ = {
+		ABC8C9851CC97E25000B94D0 /* iVoteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABC8C99D1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "ClickerTests" */;
+			buildConfigurationList = ABC8C99D1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVoteTests" */;
 			buildPhases = (
 				ABC8C9821CC97E25000B94D0 /* Sources */,
 				ABC8C9831CC97E25000B94D0 /* Frameworks */,
@@ -302,14 +302,14 @@
 			dependencies = (
 				ABC8C9881CC97E25000B94D0 /* PBXTargetDependency */,
 			);
-			name = ClickerTests;
+			name = iVoteTests;
 			productName = ClickerTests;
-			productReference = ABC8C9861CC97E25000B94D0 /* ClickerTests.xctest */;
+			productReference = ABC8C9861CC97E25000B94D0 /* iVote.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ABC8C9901CC97E25000B94D0 /* ClickerUITests */ = {
+		ABC8C9901CC97E25000B94D0 /* iVoteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABC8C9A01CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "ClickerUITests" */;
+			buildConfigurationList = ABC8C9A01CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVoteUITests" */;
 			buildPhases = (
 				ABC8C98D1CC97E25000B94D0 /* Sources */,
 				ABC8C98E1CC97E25000B94D0 /* Frameworks */,
@@ -320,9 +320,9 @@
 			dependencies = (
 				ABC8C9931CC97E25000B94D0 /* PBXTargetDependency */,
 			);
-			name = ClickerUITests;
+			name = iVoteUITests;
 			productName = ClickerUITests;
-			productReference = ABC8C9911CC97E25000B94D0 /* ClickerUITests.xctest */;
+			productReference = ABC8C9911CC97E25000B94D0 /* iVote.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -337,6 +337,7 @@
 				TargetAttributes = {
 					ABC8C9711CC97E25000B94D0 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 32EHYX9664;
 					};
 					ABC8C9851CC97E25000B94D0 = {
 						CreatedOnToolsVersion = 7.3;
@@ -348,7 +349,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ABC8C96D1CC97E25000B94D0 /* Build configuration list for PBXProject "Clicker" */;
+			buildConfigurationList = ABC8C96D1CC97E25000B94D0 /* Build configuration list for PBXProject "iVote" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -361,9 +362,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABC8C9711CC97E25000B94D0 /* Clicker */,
-				ABC8C9851CC97E25000B94D0 /* ClickerTests */,
-				ABC8C9901CC97E25000B94D0 /* ClickerUITests */,
+				ABC8C9711CC97E25000B94D0 /* iVote */,
+				ABC8C9851CC97E25000B94D0 /* iVoteTests */,
+				ABC8C9901CC97E25000B94D0 /* iVoteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -465,12 +466,12 @@
 /* Begin PBXTargetDependency section */
 		ABC8C9881CC97E25000B94D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABC8C9711CC97E25000B94D0 /* Clicker */;
+			target = ABC8C9711CC97E25000B94D0 /* iVote */;
 			targetProxy = ABC8C9871CC97E25000B94D0 /* PBXContainerItemProxy */;
 		};
 		ABC8C9931CC97E25000B94D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABC8C9711CC97E25000B94D0 /* Clicker */;
+			target = ABC8C9711CC97E25000B94D0 /* iVote */;
 			targetProxy = ABC8C9921CC97E25000B94D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -505,6 +506,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: marsakamarshall@gmail.com (6VBVJFHWHH)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -527,6 +529,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -551,6 +554,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: marsakamarshall@gmail.com (6VBVJFHWHH)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -566,6 +570,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -576,10 +581,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Clicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.Clicker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iVote;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -587,10 +595,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Clicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.Clicker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iVote;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -601,8 +612,8 @@
 				INFOPLIST_FILE = ClickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.ClickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clicker.app/Clicker";
+				PRODUCT_NAME = iVote;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iVote.app/iVote";
 			};
 			name = Debug;
 		};
@@ -613,8 +624,8 @@
 				INFOPLIST_FILE = ClickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.ClickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clicker.app/Clicker";
+				PRODUCT_NAME = iVote;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iVote.app/iVote";
 			};
 			name = Release;
 		};
@@ -624,7 +635,7 @@
 				INFOPLIST_FILE = ClickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.ClickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iVote;
 				TEST_TARGET_NAME = Clicker;
 			};
 			name = Debug;
@@ -635,7 +646,7 @@
 				INFOPLIST_FILE = ClickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.ClickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iVote;
 				TEST_TARGET_NAME = Clicker;
 			};
 			name = Release;
@@ -643,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABC8C96D1CC97E25000B94D0 /* Build configuration list for PBXProject "Clicker" */ = {
+		ABC8C96D1CC97E25000B94D0 /* Build configuration list for PBXProject "iVote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC8C9981CC97E25000B94D0 /* Debug */,
@@ -652,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABC8C99A1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "Clicker" */ = {
+		ABC8C99A1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC8C99B1CC97E25000B94D0 /* Debug */,
@@ -661,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABC8C99D1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "ClickerTests" */ = {
+		ABC8C99D1CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVoteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC8C99E1CC97E25000B94D0 /* Debug */,
@@ -670,7 +681,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABC8C9A01CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "ClickerUITests" */ = {
+		ABC8C9A01CC97E25000B94D0 /* Build configuration list for PBXNativeTarget "iVoteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC8C9A11CC97E25000B94D0 /* Debug */,
