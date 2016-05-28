@@ -14,12 +14,12 @@ class SearchingVoteViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        _ = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: #selector(SearchingVoteViewController.timeToMoveOn), userInfo: nil, repeats: false)
     }
-
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func timeToMoveOn() {
+        self.performSegueWithIdentifier("searchComplete", sender: self)
     }
 
 }

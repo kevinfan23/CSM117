@@ -1,14 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B113B29756D4320E2100B2EC75AD72367A255AB9",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B113B29756D4320E2100B2EC75AD72367A255AB9+++F7A7AC9",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "B113B29756D4320E2100B2EC75AD72367A255AB9" : 0
+    "B113B29756D4320E2100B2EC75AD72367A255AB9+++F7A7AC9" : 0,
+    "B113B29756D4320E2100B2EC75AD72367A255AB9+++6D5FAC7" : 0,
+    "B113B29756D4320E2100B2EC75AD72367A255AB9+++EF7DE2D" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "92F40D1F-B695-437D-9704-6986372CCCEA",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "B113B29756D4320E2100B2EC75AD72367A255AB9" : ""
+    "B113B29756D4320E2100B2EC75AD72367A255AB9+++F7A7AC9" : "CSM117\/",
+    "B113B29756D4320E2100B2EC75AD72367A255AB9+++6D5FAC7" : "",
+    "B113B29756D4320E2100B2EC75AD72367A255AB9+++EF7DE2D" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "iVote",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -17,12 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kevinfan23\/CSM117",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B113B29756D4320E2100B2EC75AD72367A255AB9"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B113B29756D4320E2100B2EC75AD72367A255AB9+++6D5FAC7"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kevinfan23\/CSM117.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B113B29756D4320E2100B2EC75AD72367A255AB9"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B113B29756D4320E2100B2EC75AD72367A255AB9+++EF7DE2D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kevinfan23\/CSM117",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B113B29756D4320E2100B2EC75AD72367A255AB9+++F7A7AC9"
     }
   ]
 }
