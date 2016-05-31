@@ -12,10 +12,10 @@ import CoreBluetooth
 
 class SubmitOpitonViewController: UIViewController, CBPeripheralManagerDelegate, UITextViewDelegate {
     @IBOutlet private var submitButton: UIButton!
-    @IBOutlet private var A_Button:UIButton!
-    @IBOutlet private var B_Button:UIButton!
-    @IBOutlet private var C_Button:UIButton!
-    @IBOutlet private var D_Button:UIButton!
+    @IBOutlet private var A_Button:SpringButton!
+    @IBOutlet private var B_Button:SpringButton!
+    @IBOutlet private var C_Button:SpringButton!
+    @IBOutlet private var D_Button:SpringButton!
   
     
     
@@ -42,6 +42,15 @@ class SubmitOpitonViewController: UIViewController, CBPeripheralManagerDelegate,
             break
         }
         
+    }
+    
+    
+    @IBAction func voteButtonDidTouch(sender: SpringButton) {
+            sender.animation = "fall"
+            sender.force = 2
+            sender.animate()
+        
+            SoundPlayer.play("upvote.wav")
     }
   
     

@@ -15,6 +15,8 @@
 		682BD4ED1CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		682BD4FC1CF29DE000F84E58 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */; };
 		684C4FBC1CEE4CC70026BF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */; };
+		68C505201CFD30010018984D /* refresh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68C5051E1CFD30010018984D /* refresh.wav */; };
+		68C505211CFD30010018984D /* upvote.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68C5051F1CFD30010018984D /* upvote.wav */; };
 		AB3BBC011CF7BF8E00A2B2D2 /* VoteResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3BBC001CF7BF8E00A2B2D2 /* VoteResultViewController.swift */; };
 		AB78AA2A1CD958F10048677C /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0C1CD958F10048677C /* AsyncButton.swift */; };
 		AB78AA2B1CD958F10048677C /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78AA0D1CD958F10048677C /* AsyncImageView.swift */; };
@@ -85,6 +87,8 @@
 		682BD4E91CF28D2800F84E58 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		682BD4FB1CF29DE000F84E58 /* ReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		684C4FBB1CEE4CC70026BF99 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68C5051E1CFD30010018984D /* refresh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = refresh.wav; sourceTree = "<group>"; };
+		68C5051F1CFD30010018984D /* upvote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = upvote.wav; sourceTree = "<group>"; };
 		AB3BBC001CF7BF8E00A2B2D2 /* VoteResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteResultViewController.swift; sourceTree = "<group>"; };
 		AB78AA0C1CD958F10048677C /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		AB78AA0D1CD958F10048677C /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
@@ -172,9 +176,19 @@
 			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
+		68C5051D1CFD30010018984D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				68C5051E1CFD30010018984D /* refresh.wav */,
+				68C5051F1CFD30010018984D /* upvote.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		AB78AA0B1CD958F10048677C /* Spring */ = {
 			isa = PBXGroup;
 			children = (
+				68C5051D1CFD30010018984D /* Sounds */,
 				682BD4E11CF28D2800F84E58 /* TPKeyboardAvoiding */,
 				AB78AA0C1CD958F10048677C /* AsyncButton.swift */,
 				AB78AA0D1CD958F10048677C /* AsyncImageView.swift */,
@@ -378,6 +392,8 @@
 				ABC8C97D1CC97E25000B94D0 /* Assets.xcassets in Resources */,
 				ABC8C97B1CC97E25000B94D0 /* Main.storyboard in Resources */,
 				684C4FBC1CEE4CC70026BF99 /* LaunchScreen.storyboard in Resources */,
+				68C505201CFD30010018984D /* refresh.wav in Resources */,
+				68C505211CFD30010018984D /* upvote.wav in Resources */,
 				AB78AA391CD958F10048677C /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
